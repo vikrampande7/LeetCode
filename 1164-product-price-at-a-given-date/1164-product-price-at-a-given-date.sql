@@ -10,8 +10,11 @@ SELECT p.product_id, new_price AS price FROM Products p LEFT JOIN cte1 ON p.prod
 
 cte3 AS (SELECT product_id, 10 as price FROM Products WHERE change_date > DATE('2019-08-17'))
 
+SELECT product_id, MAX(price) AS price FROM
+(
 SELECT * FROM cte2 
 UNION
 SELECT * FROM cte3 
 ORDER BY product_id
-
+) AS temp
+GROUP BY product_id
