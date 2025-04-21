@@ -50,18 +50,11 @@ topName AS (
 
 Results AS (
     SELECT * FROM topName
-    UNION
+    UNION ALL
     SELECT * FROM topMovie
-),
-
-Final AS (
-    SELECT results,
-           ROW_NUMBER() OVER (
-               PARTITION BY results 
-               ORDER BY (SELECT NULL)
-           ) AS RowNum
-    FROM Results
 )
 
-SELECT results FROM Final WHERE RowNum < 2
+SELECT * FROM Results
+
+
 
