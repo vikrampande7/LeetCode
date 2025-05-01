@@ -1,45 +1,18 @@
 class Solution:
     def isValid(self, s: str) -> bool:
+        if len(s) == 1: return False
         stack = []
-        mapping = {
-            ")":"(",
-            "]":"[",
-            "}":"{"
-            }
-        for c in s:
-            if c in mapping:
-                if stack:
-                    if stack[-1] == mapping[c]:
-                        stack.pop()
-                    else:
-                        return False
+        for char in s: #O(n)
+            if char in "([{":
+                stack.append(char)
+            else:
+                if not stack:
+                    return False
+                top = stack[-1]
+                if char == ")" and top == "(" or char == "]" and top == "[" or char == "}" and top == "{":
+                    stack.pop() #O(1)
                 else:
                     return False
-            else:
-                stack.append(c)
-                
         if not stack:
             return True
-        else:
-            return False
-
-        # paraDict = {
-        # "(":")",
-        # "[":"]",
-        # "{":"}"
-        # }
-    
-        # stack = []
-        # for c in s:
-        #     if c not in stack:
-        #         stack.append(c)
-        #         if len(stack) == 2:
-        #             popped = stack.pop()
-        #             if paraDict[stack[0]] == popped:
-        #                 stack.pop()
-        #                 continue
-        #             else:
-        #                 return False
-                    
-        # return True if not stack else False
         
