@@ -3,13 +3,19 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        hashMap = {0:0, 1:0, 2:0}
-        for n in nums:
-            hashMap[n] += 1
-            
-        idx = 0
-        for c in range(3):
-            while hashMap[c] > 0:
-                nums[idx] = c
-                idx += 1
-                hashMap[c] -= 1
+        l, c = 0, 0
+        r = len(nums) - 1
+
+        while c <= r:
+            if nums[c] == 0:
+                nums[l], nums[c] = nums[c], nums[l]
+                c += 1
+                l += 1
+            elif nums[c] == 2:
+                nums[c], nums[r] = nums[r], nums[c]
+                r -= 1
+            else:
+                c += 1
+
+
+        
