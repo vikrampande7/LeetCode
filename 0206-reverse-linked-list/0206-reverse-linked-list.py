@@ -5,18 +5,18 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        """
-        Iterative - using pointers
-        Time Complexity: O(n)
-        Space Complextiy: O(1)
-        """
-        prev, curr = None, head
-        
+        prev = None
+        curr = head
+
         while curr:
-            temp = curr.next
+            tmp = curr.next
+            #print("tmp", tmp)
             curr.next = prev
+            #print(prev)
             prev = curr
-            curr = temp
-            
+            #print(prev)
+            curr = tmp
+            #print(curr)
+        
         return prev
         
