@@ -6,23 +6,21 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        """
-        - If Hashmap is used, memory complexity will be O(n)
-        - Use Algorithm: Floyds Tortoise and Hare
-        - Set up fast and slow pointers
-        - Slow increment by 1, fast increment by 2
-        - If they meet, then there is a cycle
-        - Do this till fast pointer becomes null, if fast becomes null then there is no cycle
-        """
-        
-        slow, fast = head, head
-        
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
-            
-            if slow == fast:
+        ### HashSet
+        # seen = set()
+        # curr = head
+        # while curr:
+        #     if curr in seen:
+        #         return True
+        #     seen.add(curr)
+        #     curr = curr.next
+        # return False
+
+        ### Floyds Tortoise and Hare Algorithm
+        f, s = head, head
+        while f and f.next:
+            s = s.next
+            f = f.next.next
+            if s == f:
                 return True
-        
         return False
-        
