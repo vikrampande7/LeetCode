@@ -6,34 +6,28 @@
 #         self.right = right
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
-        """
-            - If root and subroot are empty, return False
-            - Recursion -> Input left and right nodes of Tree
-            - If root.val and subroot.val are not equal return False
-            - If root.left and subroot.left are not equal return False
-        """
-        if not subRoot:
-            return True
         
+        def checkAnother(root, subroot):
+            if not root and not subroot:
+                return True
+
+            if not root or not subroot:
+                return False
+
+            return(
+                root.val == subroot.val and
+                checkAnother(root.left, subroot.left) and 
+                checkAnother(root.right, subroot.right)
+            )
+
         if not root:
             return False
-     
-        if self.checkSameTree(root, subRoot):
+        
+        if checkAnother(root, subRoot):
             return True
-        
-        if self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot):
-            return True
-        
-    
-    def checkSameTree(self, t1, t2):
-        if not t1 and not t2:
-            return True
-        
-        
-        if t1 and t2 and t1.val == t2.val:
-            if self.checkSameTree(t1.left, t2.left) and self.checkSameTree(t1.right, t2.right):
-                return True
-        
+            
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
 
-        return False
+
+        
         
