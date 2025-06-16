@@ -7,18 +7,13 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        """
-            - LCA is where the split occurs
-            - Check the root node and go right or left then return the root
-        """
-        
-        r = root
-        
-        while r:
-            if p.val > r.val and q.val > r.val:
-                r = r.right
-            elif p.val < r.val and q.val < r.val:
-                r = r.left
+        curr = root
+
+        while curr:
+            if p.val > curr.val and q.val > curr.val:
+                curr = curr.right
+            elif p.val < curr.val and q.val < curr.val:
+                curr = curr.left
             else:
-                return r
+                return curr
         
