@@ -1,26 +1,19 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        """
-            Recursion Tree
-            Decisions
-            Backtracking
-        """
         res = []
-        
-        def dfs(i, curr, total):
-            if total == target:
-                res.append(curr.copy())
+
+        def recursion(i, tmp, targetSum):
+            if targetSum == target:
+                res.append(tmp[:])
                 return
-            if i>= len(candidates) or total > target:
+            if i >= len(candidates) or targetSum > target:
                 return
-            
-            curr.append(candidates[i])
-            dfs(i, curr, total + candidates[i])
-            curr.pop()
-            dfs(i+1, curr, total)
-            
-        dfs(0, [], 0)
+
+            tmp.append(candidates[i])
+            recursion(i, tmp, targetSum+candidates[i]) # Include current index
+            tmp.pop()
+            recursion(i+1, tmp, targetSum) # Do not include current index
+
+        recursion(i=0, tmp=[], targetSum=0)
+
         return res
-        
-        
-        
