@@ -1,34 +1,36 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-        """
-            MxN Grid -> Backtracking
-            Recursive DFS
-            No revisiting of Character
-            Time Complexity -> O(n*m*4^n)
-        """
-        
-        rows, cols = len(board), len(board[0])
-        path = set()
-        
-        def dfs(r, c, i):
+        ROWS = len(board)
+        COLS = len(board[0])
+
+        seen = set()
+
+        def recursion(r, c, i):
             if i == len(word):
                 return True
-            
-            if (r<0 or c<0 or r>= rows or c >= cols or word[i]!= board[r][c] or (r,c) in path):
-                return False
-            
-            path.add((r, c))
-            
-            res = (dfs(r+1, c, i+1) or
-                   dfs(r-1, c, i+1) or
-                   dfs(r, c+1, i+1) or
-                   dfs(r, c-1, i+1))
-            path.remove((r,c))
+
+            if (r<0 or c<0              or
+                (r,c) in seen           or
+                r >= ROWS or c >= COLS  or
+                word[i] != board[r][c]):
+                return False     
+
+            seen.add((r, c))
+            res = (
+                recursion(r+1, c, i+1) or
+                recursion(r-1, c, i+1) or
+                recursion(r, c+1, i+1) or
+                recursion(r, c-1, i+1) )
+            seen.remove((r, c))
+
             return res
-        
-        for r in range(rows):
-            for c in range(cols):
-                if dfs(r,c,0): 
+
+        for i in range(ROWS):
+            for j in range(COLS):
+                if recursion(i, j, 0):
                     return True
         
         return False
+
+
+        
