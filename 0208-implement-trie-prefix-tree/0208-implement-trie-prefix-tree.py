@@ -1,55 +1,36 @@
 class TrieNode:
     def __init__(self):
-        self.children = [None]*26
-        self.isEnd = False
-    
+        self.children = {}
+        self.eow = False
+
 class Trie:
 
     def __init__(self):
         self.root = TrieNode()
         
-    
-    def char_to_idx(self, c):
-        return ord(c) - ord('a')
-    
-    
-    # Get the index of character, create a new node for character if not exists, shift pointer to children, update flag once for loop is complete
     def insert(self, word: str) -> None:
-        crawler = self.root
-        
-        for ch in word:
-            idx = self.char_to_idx(ch)
-            if not crawler.children[idx]:
-                crawler.children[idx] = TrieNode()
-            crawler = crawler.children[idx]    
-            
-        crawler.isEnd = True
-        
+        curr = self.root
+        for w in word:
+            if w not in curr.children:
+                curr.children[w] = TrieNode()
+            curr = curr.children[w]
+        curr.eow = True
 
     def search(self, word: str) -> bool:
-        crawler = self.root
-        
-        for c in word:
-            idx = self.char_to_idx(c)
-            if not crawler.children[idx]:
+        curr = self.root
+        for w in word:
+            if w not in curr.children:
                 return False
-            crawler = crawler.children[idx]
-            
-        return crawler is not None and crawler.isEnd
-        
+            curr = curr.children[w]
+        return curr.eow
 
     def startsWith(self, prefix: str) -> bool:
-        crawler = self.root
-        
-        for ch in prefix:
-            idx = self.char_to_idx(ch)
-            if not crawler.children[idx]:
+        curr = self.root
+        for w in prefix:
+            if w not in curr.children:
                 return False
-            crawler = crawler.children[idx]
-        
+            curr = curr.children[w]
         return True
-        
-
 
 # Your Trie object will be instantiated and called as such:
 # obj = Trie()
