@@ -1,64 +1,51 @@
 class TrieNode:
     def __init__(self):
         self.children = {}
-        self.isWord = False
-        
-    def addWord(self, word):
-        crawler = self
+        self.eow = False
+
+    def insert(self, word):
+        curr = self
         for w in word:
-            if w not in crawler.children:
-                crawler.children[w] = TrieNode()
-            crawler = crawler.children[w]
-        crawler.isWord = True
+            if w not in curr.children:
+                curr.children[w] = TrieNode()
+            curr = curr.children[w]
+        curr.eow = True
         
-        
+
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
         root = TrieNode()
-        
-        # Add all words in Trie
-        for word in words:
-            root.addWord(word)
-            
-        RES, VISITED = set(), set()
-        ROWS,COLS = len(board), len(board[0])
-        
-        
-            
-        # Write DFS Function
-        def dfs(r, c, node, word):
-            # Edge Cases
-            if ( r < 0 
-            or c < 0 
-            or r == ROWS 
-            or c == COLS 
-            or (r,c) in VISITED 
-            or board[r][c] not in node.children):
+        for w in words:
+            root.insert(w)
+
+        ROWS, COLS = len(board), len(board[0])
+
+        res, visit = set(), set()
+
+        def dfs(node, row, col, wordSoFar):
+            if (row < 0 or col < 0 or row == ROWS or col == COLS or (row, col) in visit or board[row][col] not in node.children):
                 return 
-            
-            # Otherwise Mark as visited
-            VISITED.add((r, c))
-            node = node.children[board[r][c]]
-            word += board[r][c]
-            
-            if node.isWord:
-                RES.add(word)
-                
-            dfs(r-1, c, node, word)
-            dfs(r+1, c, node, word)
-            dfs(r, c-1, node, word)
-            dfs(r, c+1, node, word)
-            
-            VISITED.remove((r, c))
-            
-            
-        for R in range(ROWS):
-            for C in range(COLS):
-                dfs(R, C, root, "")
-                
-        
-        return list(RES)
-            
-            
-        
+
+            visit.add((row, col))
+            node = node.children[board[row][col]]
+            wordSoFar += board[row][col]
+            if node.eow:
+                res.add(wordSoFar)
+
+            dfs(node, row+1, col, wordSoFar)
+            dfs(node, row-1, col, wordSoFar)
+            dfs(node, row, col+1, wordSoFar)
+            dfs(node, row, col-1, wordSoFar)
+
+            visit.remove((row, col))
+
+
+        for r in range(ROWS):
+            for c in range(COLS):
+                dfs(root, r, c, "")
+
+
+        return list(res)
+
+
         
