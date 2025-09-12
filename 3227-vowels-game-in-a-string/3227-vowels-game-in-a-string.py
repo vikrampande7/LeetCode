@@ -1,6 +1,11 @@
 class Solution:
     def doesAliceWin(self, s: str) -> bool:
-        if "aeiou" not in s:
+        v = 0
+        for c in s:
+            if c in "aeiou":
+                v += 1
+        
+        if v == 0:
             return False
         else:
             return True
