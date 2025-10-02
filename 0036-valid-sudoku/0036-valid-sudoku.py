@@ -1,26 +1,26 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        rows = [set() for _ in range(9)]
-        columns = [set() for _ in range(9)]
-        subgrids = [set() for _ in range(9)]
-        
+        ROWS = [set() for _ in range(9)]
+        COLS = [set() for _ in range(9)]
+        SUBG = [set() for _ in range(9)]
+
         for i in range(9):
             for j in range(9):
-                num = board[i][j]
-                if num == '.':
+                char = board[i][j]
+                if char == ".":
                     continue
-                # Check row
-                if num in rows[i]:
+
+                if char in ROWS[i]:
                     return False
-                rows[i].add(num)
-                # Check column
-                if num in columns[j]:
+                ROWS[i].add(char)
+
+                if char in COLS[j]:
                     return False
-                columns[j].add(num)
-                # Check subgrid
-                sg = (i // 3) * 3 + (j // 3)
-                if num in subgrids[sg]:
+                COLS[j].add(char)
+                
+                SG = (i // 3) * 3 + (j // 3)
+                if char in SUBG[SG]:
                     return False
-                subgrids[sg].add(num)
+                SUBG[SG].add(char)
+
         return True
-        
