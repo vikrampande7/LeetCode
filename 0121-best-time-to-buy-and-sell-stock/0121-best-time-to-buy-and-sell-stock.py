@@ -1,16 +1,12 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        l = 0
-        r = 1
+        buy, sell = 0, 1
         maxProfit = 0
-
-        while r < len(prices):
-            if prices[l] > prices[r]:
-                l = r
-                r += 1
+        while sell < len(prices):
+            if prices[buy] > prices[sell]:
+                buy = sell
             else:
-                currProfit = prices[r] - prices[l]
-                maxProfit = max(maxProfit, currProfit)
-                r += 1
-
+                profit = pricess[sell] - prices[buy]
+                maxProfit = max(profit, maxProfit)
+            sell += 1
         return maxProfit
