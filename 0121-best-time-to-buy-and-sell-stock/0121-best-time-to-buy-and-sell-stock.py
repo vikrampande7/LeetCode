@@ -6,7 +6,7 @@ class Solution:
             if prices[buy] > prices[sell]:
                 buy = sell
             else:
-                profit = pricess[sell] - prices[buy]
+                profit = prices[sell] - prices[buy]
                 maxProfit = max(profit, maxProfit)
             sell += 1
         return maxProfit
