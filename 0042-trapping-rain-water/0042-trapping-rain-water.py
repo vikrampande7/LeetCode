@@ -7,17 +7,17 @@ class Solution:
         maxLeft = [0] * n
         maxRight = [0] * n
 
-        # Find Maximum Height on Left
+        # Maximum height to the left of each bar
         maxLeft[0] = height[0]
         for l in range(1, n):
-            maxLeft[l] = max(maxLeft[l-1], height[l])
+            maxLeft[l] = max(maxLeft[l - 1], height[l])
 
-        # Find Maximum Height on Left
-        maxRight[n-1] = height[n-1]
-        for r in range(n-2,-1,-1):
-            maxRight[r] = min(maxRight[r+1], height[r])
+        # Maximum height to the right of each bar
+        maxRight[n - 1] = height[n - 1]
+        for r in range(n - 2, -1, -1):
+            maxRight[r] = max(maxRight[r + 1], height[r])  
 
-        # out = min(leftheightmax, rightheightmax) - currentheight
+        # Compute total trapped water
         out = 0
         for i in range(n):
             out += min(maxLeft[i], maxRight[i]) - height[i]
