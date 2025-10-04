@@ -4,11 +4,14 @@ class Solution:
         r = len(height) - 1
         max_water = 0
         while l < r:
-            h = max(l, r)
+            h = min(height[l], height[r])
             b = r - l
             curr_water = b * h
             max_water = max(curr_water, max_water)
-            l += 1
-            r -= 1
+            
+            if height[l] < height[r]: ########## You missed this point, move the pointer where wall is shorted
+                l += 1
+            else:
+                r -= 1
         return max_water
         
