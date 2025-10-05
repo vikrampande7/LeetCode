@@ -21,7 +21,7 @@ class Solution:
         res = [-1] * len(nums1)
         for i in range(len(nums1)):
             if nums1[i] in hashmap:
-                res[i] = hashmap[nums[i]]
+                res[i] = hashmap[nums1[i]]
         return res
 
 
