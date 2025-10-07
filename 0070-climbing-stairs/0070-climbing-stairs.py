@@ -1,13 +1,22 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        last = 1
-        second_last = 1
-        
-        for i in range(n-1):
-            updated_last = second_last
-            second_last = second_last + last
-            last = updated_last
+        ## DP
+        # if n == 1:
+        #     return 1
+        # dp = [0 for _ in range(n+1)]
+        # dp[1] = 1
+        # dp[2] = 2
+        # for i in range(3, n+1):
+        #     dp[i] = dp[i-1] + dp[i-2]
+        # return dp[n]
 
-        return second_last
-
-
+        ## Fibonacci
+        if n == 1:
+            return 1
+        first = 1
+        second = 2
+        for i in range(3, n+1):
+            third = first + second
+            first = second
+            second = third
+        return second
