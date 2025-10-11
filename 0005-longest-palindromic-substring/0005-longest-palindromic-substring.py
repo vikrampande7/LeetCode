@@ -18,6 +18,4 @@ class Solution:
                     resLen = r - l + 1
                 l -= 1
                 r += 1
-        return res
-
-        
+        return res  
