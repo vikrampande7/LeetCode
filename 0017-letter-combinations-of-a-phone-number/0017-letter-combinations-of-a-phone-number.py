@@ -1,25 +1,23 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
-        if digits == "1":
-            return None
-        if not digits:
-            return None
-        
-        phone_map = {"2": "abc", "3": "def", "4": "ghi", "5": "jkl", "6": "mno", "7": "pqrs", "8": "tuv", "9": "wxyz"}
+        if digits == "":
+            return []
+        digitsToChars = {
+            "2":"abc",
+            "3":"def",
+            "4":"ghi",
+            "5":"jkl",
+            "6":"mno",
+            "7":"pqrs",
+            "8":"tuv",
+            "9":"wxyz",
+        }
         res = []
-        
-        def tracking(idx, combi):
-            if idx == len(digits):
-                res.append(combi)
+        def backtrack(i, currStr):
+            if len(currStr) == len(digits):
+                res.append(currStr)
                 return
-            
-            curr = digits[idx]
-            for letter in phone_map[curr]:
-                tracking(idx+1, combi+letter)
-                
-        tracking(0, "")
-    
+            for eachChar in digitsToChars[digits[i]]:
+                backtrack(i+1, currStr+eachChar)
+        backtrack(0, "")
         return res
-            
-        
-        
