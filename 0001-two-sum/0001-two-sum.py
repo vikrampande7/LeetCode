@@ -6,7 +6,7 @@ class Solution:
             diff = target - nums[i]
             if diff in hashMap:
                 return [i, hashMap[diff]]
-            hashMap[diff] = i
+            hashMap[nums[i]] = i
         return []
                 
         
