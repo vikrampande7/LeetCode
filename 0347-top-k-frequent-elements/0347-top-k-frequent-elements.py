@@ -1,10 +1,12 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        freqCount = {}
-
+        hashmap = {}
         for n in nums:
-            freqCount[n] = freqCount.get(n, 0) + 1
-
-        sorted_items = sorted(freqCount.items(), key=lambda x: x[1], reverse=True)
-
-        return [num for num, freq in sorted_items[:k]]
+            hashmap[n] = hashmap.get(n, 0) + 1
+        heap, out = [], []
+        for k, v in hashmap.items():
+            heapq.heappush(heap, (-v, k))
+        for i in range(k-1):
+            freq, val = heapq.heappop(heap)
+            out.append(val)
+        return out
