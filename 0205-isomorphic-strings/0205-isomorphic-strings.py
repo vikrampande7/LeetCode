@@ -1,22 +1,25 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        s_m = {}
-        t_m = {}
-        s_l = []
-        t_l = []
-
-        for c in s:
-            s_m[c] = s_m.get(c, 0) + 1
-
-        for c in t:
-            t_m[c] = t_m.get(c, 0) + 1
-
-        for k, v in s_m.items():
-            s_l.append(v)
-
-        for k, v in t_m.items():
-            t_l.append(v)
-
-        print(s_l)
-        print(t_l)
-        return s_l.sort() == t_l.sort()     
+        if len(s) != len(t):
+            return False
+        
+        s_to_t = {}  
+        t_to_s = {}  
+        
+        for i in range(len(s)):
+            char_s = s[i]
+            char_t = t[i]
+            
+            
+            if char_s in s_to_t and s_to_t[char_s] != char_t:
+                return False
+            
+            
+            if char_t in t_to_s and t_to_s[char_t] != char_s:
+                return False
+            
+           
+            s_to_t[char_s] = char_t
+            t_to_s[char_t] = char_s
+        
+        return True  
