@@ -7,4 +7,3 @@ class Solution:
                 freqCounter[ord(c) - ord('a')] += 1
             res[tuple(freqCounter)].append(word)
         return list(res.values())
-        
