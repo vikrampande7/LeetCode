@@ -1,11 +1,10 @@
 class Solution:
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
-        stonesMap = {}
-        j = 0
-        for stone in stones:
-            stonesMap[stone] = stonesMap.get(stone, 0) + 1
-        for jewel in jewels:
-            if jewel in stonesMap:
-                j += stonesMap[jewel]
-        return j
-        
+        stones_map = {}
+        res = 0
+        for c in stones:
+            stones_map[c] = stones_map.get(c, 0) + 1
+        for c in jewels:
+            if c in stones_map:
+                res += stones_map[c]
+        return res
