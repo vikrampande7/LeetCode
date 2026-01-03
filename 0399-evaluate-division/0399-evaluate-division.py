@@ -1,38 +1,34 @@
 class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
-
-        graph = defaultdict(defaultdict)
-
-        def backtrack_evaluate(curr_node, target_node, acc_product, visited):
-            visited.add(curr_node)
-            ret = -1.0
-            neighbors = graph[curr_node]
-            if target_node in neighbors:
-                ret = acc_product * neighbors[target_node]
-            else:
-                for neighbor, value in neighbors.items():
-                    if neighbor in visited:
-                        continue
-                    ret = backtrack_evaluate(
-                        neighbor, target_node, acc_product * value, visited)
-                    if ret != -1.0:
-                        break
-            visited.remove(curr_node)
-            return ret
-
+        gid_weight = {}
+        def find(node_id):
+            if node_id not in gid_weight:
+                gid_weight[node_id] = (node_id, 1)
+            group_id, node_weight = gid_weight[node_id]
+            if group_id != node_id:
+                new_group_id, group_weight = find(group_id)
+                gid_weight[node_id] = (new_group_id, group_weight * node_weight)
+            return gid_weight[node_id]
+        
+        def union(dividend, divisior, value):
+            dividend_gid, dividend_weight = find(dividend)
+            divisor_gid, divisor_weight = find(divisor)
+            if dividend_gid != divisor_gid:
+                gid_weight[dividend_gid] = (divisor_gid, divisor_weight * value / dividend_weight)
+        
         for (dividend, divisor), value in zip(equations, values):
-            graph[dividend][divisor] = value
-            graph[divisor][dividend] = 1 / value
+            union(dividend, divisor, value)
+        
+        res = []
 
-        results = []
-        for dividend, divisor in queries:
-            if dividend not in graph or divisor not in graph:
-                ret = -1.0
-            elif dividend == divisor:
-                ret = 1.0
+        for (dividend, divisor) in queries:
+            if dividend not in gid_weight or divisor not in gid_weight:
+                res.append(-1.0)
             else:
-                visited = set()
-                ret = backtrack_evaluate(dividend, divisor, 1, visited)
-            results.append(ret)
-
-        return results
+                dividend_gid, dividend_weight = find(dividend)
+                divisor_gid, divisor_weight = find(divisor)
+                if dividend_gid != divisor_gid:
+                    res.append(-1.0)
+                else:
+                    res.append(dividend_weight / divisor_weight)
+        return res
