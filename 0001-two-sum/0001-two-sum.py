@@ -1,12 +1,9 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        hashMap = {}
-        n = len(nums)
-        for i in range(n):
-            diff = target - nums[i]
-            if diff in hashMap:
-                return [i, hashMap[diff]]
-            hashMap[nums[i]] = i
+        hashmap = {}
+        for i, n in enumerate(nums):
+            diff = target - n
+            if diff in hashmap:
+                return [i, hashmap[diff]]
+            hashmap[n] = i
         return []
-                
-        
