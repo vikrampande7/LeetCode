@@ -1,7 +1,4 @@
 """
-    hashMap + DFS + Recursion
-"""
-"""
 # Definition for a Node.
 class Node:
     def __init__(self, val = 0, neighbors = None):
@@ -12,24 +9,16 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        recordMap = {}
-        
-        def dfs(node):
-            if node in recordMap:
-                return recordMap[node]
-            
-            copied_val = Node(node.val)
-            recordMap[node] = copied_val
-            
-            for n in node.neighbors:
-                copied_val.neighbors.append(dfs(n))
-                
-            return copied_val
-        
-        if node:
-            return dfs(node)
-        else:
-            return None
-        
-        
-        
+        if not node:
+            return node
+        visited = {}
+        stack = [node]
+        visited[node] = Node(node.val, [])
+        while stack:
+            curr_node = stack.pop()
+            for nei in curr_node.neighbors:
+                if nei not in visited:
+                    visited[nei] = Node(nei.val, [])
+                    stack.append(nei)
+                visited[curr_node].neighbors.append(visited[nei])
+        return visited[node]
