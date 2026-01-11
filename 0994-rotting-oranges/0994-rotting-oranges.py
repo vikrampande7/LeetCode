@@ -17,9 +17,9 @@ class Solution:
                 row, col = q.popleft()
                 for dr, dc in dirs:
                     R, C = row+dr, col+dc        
-                    if R in range(ROWS) amd C in range(COLS) and grid[R][C] == 1:
+                    if (R in range(ROWS) and C in range(COLS) and grid[R][C] == 1):
                         grid[R][C] = 2
+                        q.append((R, C))
                         fresh -= 1
             time += 1 
-    
         return -1 if fresh > 0 else time
