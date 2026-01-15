@@ -1,34 +1,44 @@
+# Kruskal's Algorithm
+class UnionFind:
+    def __init__(self, size):
+        self.rank = [0] * size
+        self.group = [i for i in range(size)]
+    
+    def find(self, x):
+        if self.group[x] != x:
+            self.group[x] = self.find(self.group[x])
+        return self.group[x]
+
+    def union(self, x, y):
+        x_s = self.find(x)
+        y_s = self.find(y)
+        if x_s == y_s:
+            return False
+        if self.rank[x_s] > self.rank[y_s]:
+            self.group[y_s] = x_s
+        elif self.rank[x_s] < self.rank[y_s]:
+            self.group[x_s] = y_s
+        else:
+            self.group[x_s] = y_s
+            self.rank[y_s] += 1
+        return True
+
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
-        # Prim's Algorithm with BFS, Minheap, and HashSet
-        
-        # Create an adjucency list for all the nodes and neighbors with cost -> node = [[c1, n1], [c2, n2]]
-        N = len(points)
-
-        adj = { i:[] for i in range(N)}
-
-        for i in range(N):
-            x1, y1 = points[i]
-            for j in range(i+1, N):
-                x2, y2 = points[j]
-                mnhttn_dist = abs(x2-x1) + abs(y2-y1)
-                adj[i].append([mnhttn_dist, j])
-                adj[j].append([mnhttn_dist, i])
-
-        # Prim's Algorithm
-        finalCost = 0
-        minHeap = [[0, 0]]
-        visit = set()
-
-        while len(visit) < N: # Run till all points are visited
-            cost, p = heapq.heappop(minHeap)
-            if p in visit:
-                continue
-            finalCost += cost
-            visit.add(p)
-
-            for neiCost, nei in adj[p]:
-                if nei not in visit:
-                    heapq.heappush(minHeap, [neiCost, nei])
-
-        return finalCost
+        n = len(points)
+        edges = []
+        for p1 in range(n):
+            for p2 in range(p1+1, n):
+                weight = abs(points[p1][0] - points[p2][0]) + abs(points[p1][1] - points[p2][1])
+                edges.append((weight, p1, p2))
+        edges.sort() # Step 1 of Kruskals Algorithm 
+        uf = UnionFind(n)
+        mst_cost = 0
+        edges_used = 0
+        for w, p1, p2 in edges:
+            if uf.union(p1, p2):
+                mst_cost += w
+                edges_used += 1
+                if edges_used == n - 1:
+                    break
+        return mst_cost 
