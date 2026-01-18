@@ -5,6 +5,7 @@ class Solution:
 
         for i in range(len(s)):
             l, r, = i, i
+            # ODD
             while l >= 0 and r < len(s) and s[l] == s[r]:
                 if (r-l+1) > resLen:
                     res = s[l:r+1]
@@ -12,6 +13,7 @@ class Solution:
                 l -= 1
                 r += 1
             l, r = i, i+1
+            # EVEN
             while l >= 0 and r < len(s) and s[l] == s[r]:
                 if (r-l+1) > resLen:
                     res = s[l:r+1]
