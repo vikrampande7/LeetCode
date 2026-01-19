@@ -1,20 +1,19 @@
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
-        # Djikstras BFS
-        visit = set()
-        minHeap = [(0, k)]
-        edges = collections.defaultdict(list)
-        for e, v, w in times:
-            edges[e].append((v, w))
-        res = 0
-
-        while minHeap:
-            weight, node = heapq.heappop(minHeap)
-            if node in visit:
+        # Dijktra's Algorithm
+        graph = defaultdict(list)
+        for u, v, w in times:
+            graph[u].append((v, w))
+        visited = set()
+        heap = [(0, k)] # Distance to itself
+        t = 0
+        while heap:
+            w, node = heapq.heappop(heap)
+            if node in visited:
                 continue
-            visit.add(node)
-            res = max(res, weight)
-            for nei, neiWeight in edges[node]:
-                if nei not in visit:
-                    heapq.heappush(minHeap, (weight+neiWeight, nei))
-        return res if len(visit) == n else -1
+            visited.add(node)
+            t = max(t, w)
+            for nei, wei in graph[node]:
+                if nei not in visited:
+                    heapq.heappush(heap, (w+wei, nei))
+        return t if len(visited) == n else -1
