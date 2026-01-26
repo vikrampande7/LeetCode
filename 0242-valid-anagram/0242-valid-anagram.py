@@ -1,12 +1,8 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        one = {}
+        so, to = {}, {}
         for c in s:
-            one[c] = one.get(c, 0) + 1
-        
-        two = {}
+            so[c] = so.get(c, 0) + 1
         for c in t:
-            two[c] = two.get(c, 0) + 1
-
-        return one == two
-        
+            to[c] = to.get(c, 0) + 1
+        return so == to
