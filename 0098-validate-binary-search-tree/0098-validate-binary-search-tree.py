@@ -6,23 +6,14 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        """
-            - Check if root is greater than or less than left and right children
-            - Set up the boundaries - Negative and Positive for comparison
-            - Borrow the boundaries from parents for comparison when root is child
-            - Recursion on left and right
-        """
-        
-        def isValid(root, left, right):
-            
-            if not root:
+        def valid(node, left, right):
+            if not node:
                 return True
-            
-            if not (root.val < right and root.val > left):
+            if not (left < node.val < right):
                 return False
-            
-            return (isValid(root.left, left, root.val) and isValid(root.right, root.val, right))
-        
-        return isValid(root, float("-inf"), float("inf"))
-            
-            
+
+            return valid(node.left, left, node.val) and valid(
+                node.right, node.val, right
+            )
+
+        return valid(root, float("-inf"), float("inf"))
