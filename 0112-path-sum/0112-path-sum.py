@@ -8,14 +8,13 @@ class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
         if not root:
             return False
-        stack = [(root, targetSum - root.val)]
+        stack = [(root. root.val)]
         while stack:
             node, currSum = stack.pop()
-            if currSum == 0 and not node.left and not node.right:
-                return True
+            if not node.right and not node.left:
+                return currSum == targetSum
             if node.left:
-                stack.append((node.left, currSum - node.left.val))
+                stack.append((node.left, node.left.val + currSum))
             if node.right:
-                stack.append((node.right, currSum - node.right.val))
+                stack.append((node.right, node.right.val + currSum))
         return False
-        
