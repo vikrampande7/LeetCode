@@ -20,4 +20,5 @@ class Solution:
                 if node.right:
                     q.append(node.right)
             order.append(level)
-        return [(order[element]) for element in range(len(order) - 1, -1, -1)]
+        #return [(order[element]) for element in range(len(order) - 1, -1, -1)]
+        return order[::-1]
