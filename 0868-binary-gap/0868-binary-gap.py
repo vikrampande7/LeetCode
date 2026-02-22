@@ -7,8 +7,8 @@ class Solution:
         for i in range(len(s)):
             if s[i] == "1":
                 ones_idx.append(i)
-        if len(ones_idx) <= 1:
-            return 0
+        # if len(ones_idx) <= 1:
+        #     return 0
         maxGap = 0
         for i in range(len(ones_idx) - 1):
             currGap = ones_idx[i+1] - ones_idx[i]
