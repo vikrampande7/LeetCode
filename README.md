@@ -31,4 +31,8 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/vikrampande7/LeetCode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 <!---LeetCode Topics End-->
