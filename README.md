@@ -57,4 +57,8 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0487-max-consecutive-ones-ii](https://github.com/vikrampande7/LeetCode/tree/main/0487-max-consecutive-ones-ii/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1009-complement-of-base-10-integer](https://github.com/vikrampande7/LeetCode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 <!---LeetCode Topics End-->
