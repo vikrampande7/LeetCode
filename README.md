@@ -11,6 +11,7 @@ LeetCode Problems
 | [0414-third-maximum-number](https://github.com/vikrampande7/LeetCode/tree/main/0414-third-maximum-number/) | Easy |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0487-max-consecutive-ones-ii](https://github.com/vikrampande7/LeetCode/tree/main/0487-max-consecutive-ones-ii/) | Medium |
+| [0498-diagonal-traverse](https://github.com/vikrampande7/LeetCode/tree/main/0498-diagonal-traverse/) | Medium |
 | [0724-find-pivot-index](https://github.com/vikrampande7/LeetCode/tree/main/0724-find-pivot-index/) | Easy |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/vikrampande7/LeetCode/tree/main/0747-largest-number-at-least-twice-of-others/) | Easy |
 | [0905-sort-array-by-parity](https://github.com/vikrampande7/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
@@ -80,4 +81,12 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/vikrampande7/LeetCode/tree/main/0002-add-two-numbers/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0498-diagonal-traverse](https://github.com/vikrampande7/LeetCode/tree/main/0498-diagonal-traverse/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0498-diagonal-traverse](https://github.com/vikrampande7/LeetCode/tree/main/0498-diagonal-traverse/) | Medium |
 <!---LeetCode Topics End-->
