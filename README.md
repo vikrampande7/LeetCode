@@ -49,6 +49,7 @@ LeetCode Problems
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0008-string-to-integer-atoi](https://github.com/vikrampande7/LeetCode/tree/main/0008-string-to-integer-atoi/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/vikrampande7/LeetCode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 ## Counting Sort
 | Problem Name | Difficulty |
