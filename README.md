@@ -60,6 +60,7 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0008-string-to-integer-atoi](https://github.com/vikrampande7/LeetCode/tree/main/0008-string-to-integer-atoi/) | Medium |
+| [0038-count-and-say](https://github.com/vikrampande7/LeetCode/tree/main/0038-count-and-say/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/vikrampande7/LeetCode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 ## Counting Sort
