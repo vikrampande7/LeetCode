@@ -1,17 +1,17 @@
-class Solution:
-    def maxArea(self, height: List[int]) -> int:
+class Solution(object):
+    def maxArea(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        maxArea = 0
         l = 0
         r = len(height) - 1
-        max_water = 0
         while l < r:
-            h = min(height[l], height[r])
-            b = r - l
-            curr_water = b * h
-            max_water = max(curr_water, max_water)
-            
-            if height[l] < height[r]: ########## You missed this point, move the pointer where wall is shorted
+            w = r - l
+            maxArea = max(maxArea, min(height[l], height[r]) * w)
+            if height[l] <= height[r]:
                 l += 1
             else:
                 r -= 1
-        return max_water
-        
+        return maxArea
