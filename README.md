@@ -138,5 +138,18 @@ LeetCode Problems
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0261-graph-valid-tree](https://github.com/vikrampande7/LeetCode/tree/main/0261-graph-valid-tree/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0261-graph-valid-tree](https://github.com/vikrampande7/LeetCode/tree/main/0261-graph-valid-tree/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0261-graph-valid-tree](https://github.com/vikrampande7/LeetCode/tree/main/0261-graph-valid-tree/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0261-graph-valid-tree](https://github.com/vikrampande7/LeetCode/tree/main/0261-graph-valid-tree/) | Medium |
 <!---LeetCode Topics End-->
