@@ -16,6 +16,7 @@ LeetCode Problems
 | [0498-diagonal-traverse](https://github.com/vikrampande7/LeetCode/tree/main/0498-diagonal-traverse/) | Medium |
 | [0724-find-pivot-index](https://github.com/vikrampande7/LeetCode/tree/main/0724-find-pivot-index/) | Easy |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/vikrampande7/LeetCode/tree/main/0747-largest-number-at-least-twice-of-others/) | Easy |
+| [0874-walking-robot-simulation](https://github.com/vikrampande7/LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0905-sort-array-by-parity](https://github.com/vikrampande7/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0941-valid-mountain-array](https://github.com/vikrampande7/LeetCode/tree/main/0941-valid-mountain-array/) | Easy |
 | [1051-height-checker](https://github.com/vikrampande7/LeetCode/tree/main/1051-height-checker/) | Easy |
@@ -45,6 +46,7 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
+| [0874-walking-robot-simulation](https://github.com/vikrampande7/LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/vikrampande7/LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/vikrampande7/LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -129,6 +131,7 @@ LeetCode Problems
 | [0054-spiral-matrix](https://github.com/vikrampande7/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 | [0498-diagonal-traverse](https://github.com/vikrampande7/LeetCode/tree/main/0498-diagonal-traverse/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
+| [0874-walking-robot-simulation](https://github.com/vikrampande7/LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vikrampande7/LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
