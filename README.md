@@ -10,6 +10,7 @@ LeetCode Problems
 | [0026-remove-duplicates-from-sorted-array](https://github.com/vikrampande7/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/vikrampande7/LeetCode/tree/main/0027-remove-element/) | Easy |
 | [0054-spiral-matrix](https://github.com/vikrampande7/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
+| [0217-contains-duplicate](https://github.com/vikrampande7/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0414-third-maximum-number](https://github.com/vikrampande7/LeetCode/tree/main/0414-third-maximum-number/) | Easy |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0487-max-consecutive-ones-ii](https://github.com/vikrampande7/LeetCode/tree/main/0487-max-consecutive-ones-ii/) | Medium |
@@ -47,6 +48,7 @@ LeetCode Problems
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0217-contains-duplicate](https://github.com/vikrampande7/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/vikrampande7/LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
@@ -59,6 +61,7 @@ LeetCode Problems
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0217-contains-duplicate](https://github.com/vikrampande7/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0414-third-maximum-number](https://github.com/vikrampande7/LeetCode/tree/main/0414-third-maximum-number/) | Easy |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/vikrampande7/LeetCode/tree/main/0747-largest-number-at-least-twice-of-others/) | Easy |
 | [0905-sort-array-by-parity](https://github.com/vikrampande7/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
