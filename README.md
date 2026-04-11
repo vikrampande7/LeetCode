@@ -11,6 +11,7 @@ LeetCode Problems
 | [0014-longest-common-prefix](https://github.com/vikrampande7/LeetCode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/vikrampande7/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/vikrampande7/LeetCode/tree/main/0027-remove-element/) | Easy |
+| [0049-group-anagrams](https://github.com/vikrampande7/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0054-spiral-matrix](https://github.com/vikrampande7/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 | [0217-contains-duplicate](https://github.com/vikrampande7/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0414-third-maximum-number](https://github.com/vikrampande7/LeetCode/tree/main/0414-third-maximum-number/) | Easy |
@@ -51,6 +52,7 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/vikrampande7/LeetCode/tree/main/0001-two-sum/) | Easy |
+| [0049-group-anagrams](https://github.com/vikrampande7/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/vikrampande7/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/vikrampande7/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
@@ -65,6 +67,7 @@ LeetCode Problems
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0049-group-anagrams](https://github.com/vikrampande7/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/vikrampande7/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/vikrampande7/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0414-third-maximum-number](https://github.com/vikrampande7/LeetCode/tree/main/0414-third-maximum-number/) | Easy |
@@ -81,6 +84,7 @@ LeetCode Problems
 | [0014-longest-common-prefix](https://github.com/vikrampande7/LeetCode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vikrampande7/LeetCode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0038-count-and-say](https://github.com/vikrampande7/LeetCode/tree/main/0038-count-and-say/) | Medium |
+| [0049-group-anagrams](https://github.com/vikrampande7/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0242-valid-anagram](https://github.com/vikrampande7/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/vikrampande7/LeetCode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
