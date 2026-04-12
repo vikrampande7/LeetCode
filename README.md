@@ -194,4 +194,12 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/vikrampande7/LeetCode/tree/main/0169-majority-element/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/vikrampande7/LeetCode/tree/main/0155-min-stack/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/vikrampande7/LeetCode/tree/main/0155-min-stack/) | Medium |
 <!---LeetCode Topics End-->
