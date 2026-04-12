@@ -1,12 +1,13 @@
-class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        hashmap = {}
+class Solution(object):
+    def topKFrequent(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: List[int]
+        """
+        if len(nums) < 2:
+            return nums
+        hm = {}
         for n in nums:
-            hashmap[n] = hashmap.get(n, 0) + 1
-        heap, out = [], []
-        for k, v in hashmap.items():
-            heapq.heappush(heap, (-v, k))
-        for i in range(k-1):
-            freq, val = heapq.heappop(heap)
-            out.append(val)
-        return out
+            hm[n] = hm.get(n, 0) + 1
+        return heapq.nlargest(k, hm.keys(), key=hm.get)
