@@ -91,6 +91,7 @@ LeetCode Problems
 | [0005-longest-palindromic-substring](https://github.com/vikrampande7/LeetCode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0008-string-to-integer-atoi](https://github.com/vikrampande7/LeetCode/tree/main/0008-string-to-integer-atoi/) | Medium |
 | [0014-longest-common-prefix](https://github.com/vikrampande7/LeetCode/tree/main/0014-longest-common-prefix/) | Easy |
+| [0020-valid-parentheses](https://github.com/vikrampande7/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vikrampande7/LeetCode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0038-count-and-say](https://github.com/vikrampande7/LeetCode/tree/main/0038-count-and-say/) | Medium |
 | [0049-group-anagrams](https://github.com/vikrampande7/LeetCode/tree/main/0049-group-anagrams/) | Medium |
@@ -207,6 +208,7 @@ LeetCode Problems
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0020-valid-parentheses](https://github.com/vikrampande7/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0155-min-stack](https://github.com/vikrampande7/LeetCode/tree/main/0155-min-stack/) | Medium |
 ## Design
 | Problem Name | Difficulty |
