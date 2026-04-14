@@ -53,6 +53,7 @@ LeetCode Problems
 | [0905-sort-array-by-parity](https://github.com/vikrampande7/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [1089-duplicate-zeros](https://github.com/vikrampande7/LeetCode/tree/main/1089-duplicate-zeros/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
+| [1768-merge-strings-alternately](https://github.com/vikrampande7/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/vikrampande7/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -102,6 +103,7 @@ LeetCode Problems
 | [0344-reverse-string](https://github.com/vikrampande7/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/vikrampande7/LeetCode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
+| [1768-merge-strings-alternately](https://github.com/vikrampande7/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/vikrampande7/LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## Counting Sort
