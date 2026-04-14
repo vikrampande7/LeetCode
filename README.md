@@ -48,6 +48,7 @@ LeetCode Problems
 | [0026-remove-duplicates-from-sorted-array](https://github.com/vikrampande7/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/vikrampande7/LeetCode/tree/main/0027-remove-element/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vikrampande7/LeetCode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0125-valid-palindrome](https://github.com/vikrampande7/LeetCode/tree/main/0125-valid-palindrome/) | Easy |
 | [0344-reverse-string](https://github.com/vikrampande7/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0905-sort-array-by-parity](https://github.com/vikrampande7/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [1089-duplicate-zeros](https://github.com/vikrampande7/LeetCode/tree/main/1089-duplicate-zeros/) | Easy |
@@ -96,6 +97,7 @@ LeetCode Problems
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vikrampande7/LeetCode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0038-count-and-say](https://github.com/vikrampande7/LeetCode/tree/main/0038-count-and-say/) | Medium |
 | [0049-group-anagrams](https://github.com/vikrampande7/LeetCode/tree/main/0049-group-anagrams/) | Medium |
+| [0125-valid-palindrome](https://github.com/vikrampande7/LeetCode/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/vikrampande7/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0344-reverse-string](https://github.com/vikrampande7/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
