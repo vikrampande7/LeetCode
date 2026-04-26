@@ -18,6 +18,7 @@ LeetCode Problems
 | [0169-majority-element](https://github.com/vikrampande7/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/vikrampande7/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0219-contains-duplicate-ii](https://github.com/vikrampande7/LeetCode/tree/main/0219-contains-duplicate-ii/) | Easy |
+| [0271-encode-and-decode-strings](https://github.com/vikrampande7/LeetCode/tree/main/0271-encode-and-decode-strings/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/vikrampande7/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0414-third-maximum-number](https://github.com/vikrampande7/LeetCode/tree/main/0414-third-maximum-number/) | Easy |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
@@ -109,6 +110,7 @@ LeetCode Problems
 | [0049-group-anagrams](https://github.com/vikrampande7/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0125-valid-palindrome](https://github.com/vikrampande7/LeetCode/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/vikrampande7/LeetCode/tree/main/0242-valid-anagram/) | Easy |
+| [0271-encode-and-decode-strings](https://github.com/vikrampande7/LeetCode/tree/main/0271-encode-and-decode-strings/) | Medium |
 | [0344-reverse-string](https://github.com/vikrampande7/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/vikrampande7/LeetCode/tree/main/0680-valid-palindrome-ii/) | Easy |
@@ -236,6 +238,7 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0155-min-stack](https://github.com/vikrampande7/LeetCode/tree/main/0155-min-stack/) | Medium |
+| [0271-encode-and-decode-strings](https://github.com/vikrampande7/LeetCode/tree/main/0271-encode-and-decode-strings/) | Medium |
 | [0705-design-hashset](https://github.com/vikrampande7/LeetCode/tree/main/0705-design-hashset/) | Easy |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
