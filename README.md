@@ -18,6 +18,7 @@ LeetCode Problems
 | [0169-majority-element](https://github.com/vikrampande7/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/vikrampande7/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0219-contains-duplicate-ii](https://github.com/vikrampande7/LeetCode/tree/main/0219-contains-duplicate-ii/) | Easy |
+| [0238-product-of-array-except-self](https://github.com/vikrampande7/LeetCode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0271-encode-and-decode-strings](https://github.com/vikrampande7/LeetCode/tree/main/0271-encode-and-decode-strings/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/vikrampande7/LeetCode/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/vikrampande7/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -147,6 +148,7 @@ LeetCode Problems
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/vikrampande7/LeetCode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/vikrampande7/LeetCode/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0724-find-pivot-index](https://github.com/vikrampande7/LeetCode/tree/main/0724-find-pivot-index/) | Easy |
 | [2906-construct-product-matrix](https://github.com/vikrampande7/LeetCode/tree/main/2906-construct-product-matrix/) | Medium |
