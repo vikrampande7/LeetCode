@@ -11,6 +11,7 @@ LeetCode Problems
 | [0014-longest-common-prefix](https://github.com/vikrampande7/LeetCode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/vikrampande7/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/vikrampande7/LeetCode/tree/main/0027-remove-element/) | Easy |
+| [0036-valid-sudoku](https://github.com/vikrampande7/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
 | [0049-group-anagrams](https://github.com/vikrampande7/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0054-spiral-matrix](https://github.com/vikrampande7/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 | [0075-sort-colors](https://github.com/vikrampande7/LeetCode/tree/main/0075-sort-colors/) | Medium |
@@ -68,6 +69,7 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/vikrampande7/LeetCode/tree/main/0001-two-sum/) | Easy |
+| [0036-valid-sudoku](https://github.com/vikrampande7/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
 | [0049-group-anagrams](https://github.com/vikrampande7/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0169-majority-element](https://github.com/vikrampande7/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/vikrampande7/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
@@ -171,6 +173,7 @@ LeetCode Problems
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0036-valid-sudoku](https://github.com/vikrampande7/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
 | [0054-spiral-matrix](https://github.com/vikrampande7/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/vikrampande7/LeetCode/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0498-diagonal-traverse](https://github.com/vikrampande7/LeetCode/tree/main/0498-diagonal-traverse/) | Medium |
