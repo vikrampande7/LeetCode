@@ -4,13 +4,19 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        numsSet = set(nums)
-        count = 0
-        for start in nums:
-            if start-1 not in numsSet:
-                end = start + 1
-                while end in numsSet:
-                    end += 1
-                count = max(count, end-start)
-        return count
+        longest_streak = 0
+        num_set = set(nums)
+
+        for num in num_set:
+            if num - 1 not in num_set:
+                current_num = num
+                current_streak = 1
+
+                while current_num + 1 in num_set:
+                    current_num += 1
+                    current_streak += 1
+
+                longest_streak = max(longest_streak, current_streak)
+
+        return longest_streak
         
