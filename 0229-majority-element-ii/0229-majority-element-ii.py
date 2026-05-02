@@ -1,13 +1,15 @@
-class Solution:
-    def majorityElement(self, nums: List[int]) -> List[int]:
-        countMap = {}
-        ans = []
-        
-        for n in nums:
-            countMap[n] = countMap.get(n, 0) + 1
-        
-        for n, f in countMap.items():
-            if f > len(nums) / 3:
-                ans.append(n)
-        
-        return ans
+class Solution(object):
+    def majorityElement(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        n = len(nums)
+        freqMap = {}
+        out = []
+        for num in nums:
+            freqMap[num] = freqMap.get(num, 0) + 1
+        for k, v in freqMap.items():
+            if v > n/3:
+                out.append(k)
+        return out
