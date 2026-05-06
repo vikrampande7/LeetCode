@@ -43,6 +43,7 @@ LeetCode Problems
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/vikrampande7/LeetCode/tree/main/1299-replace-elements-with-greatest-element-on-right-side/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/vikrampande7/LeetCode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
+| [1861-rotating-the-box](https://github.com/vikrampande7/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/vikrampande7/LeetCode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1929-concatenation-of-array](https://github.com/vikrampande7/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/vikrampande7/LeetCode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
@@ -68,6 +69,7 @@ LeetCode Problems
 | [1089-duplicate-zeros](https://github.com/vikrampande7/LeetCode/tree/main/1089-duplicate-zeros/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/vikrampande7/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
+| [1861-rotating-the-box](https://github.com/vikrampande7/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/vikrampande7/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -189,6 +191,7 @@ LeetCode Problems
 | [0304-range-sum-query-2d-immutable](https://github.com/vikrampande7/LeetCode/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0498-diagonal-traverse](https://github.com/vikrampande7/LeetCode/tree/main/0498-diagonal-traverse/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/vikrampande7/LeetCode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
+| [1861-rotating-the-box](https://github.com/vikrampande7/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/vikrampande7/LeetCode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2906-construct-product-matrix](https://github.com/vikrampande7/LeetCode/tree/main/2906-construct-product-matrix/) | Medium |
