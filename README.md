@@ -12,6 +12,7 @@ LeetCode Problems
 | [0026-remove-duplicates-from-sorted-array](https://github.com/vikrampande7/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/vikrampande7/LeetCode/tree/main/0027-remove-element/) | Easy |
 | [0036-valid-sudoku](https://github.com/vikrampande7/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
+| [0041-first-missing-positive](https://github.com/vikrampande7/LeetCode/tree/main/0041-first-missing-positive/) | Hard |
 | [0048-rotate-image](https://github.com/vikrampande7/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0049-group-anagrams](https://github.com/vikrampande7/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0054-spiral-matrix](https://github.com/vikrampande7/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
@@ -77,6 +78,7 @@ LeetCode Problems
 | ------- | ------- |
 | [0001-two-sum](https://github.com/vikrampande7/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0036-valid-sudoku](https://github.com/vikrampande7/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
+| [0041-first-missing-positive](https://github.com/vikrampande7/LeetCode/tree/main/0041-first-missing-positive/) | Hard |
 | [0049-group-anagrams](https://github.com/vikrampande7/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/vikrampande7/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0169-majority-element](https://github.com/vikrampande7/LeetCode/tree/main/0169-majority-element/) | Easy |
