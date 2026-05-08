@@ -55,6 +55,7 @@ LeetCode Problems
 | [3546-equal-sum-grid-partition-i](https://github.com/vikrampande7/LeetCode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/vikrampande7/LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3643-flip-square-submatrix-vertically](https://github.com/vikrampande7/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
+| [3660-jump-game-ix](https://github.com/vikrampande7/LeetCode/tree/main/3660-jump-game-ix/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -153,6 +154,7 @@ LeetCode Problems
 | [0487-max-consecutive-ones-ii](https://github.com/vikrampande7/LeetCode/tree/main/0487-max-consecutive-ones-ii/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/vikrampande7/LeetCode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
+| [3660-jump-game-ix](https://github.com/vikrampande7/LeetCode/tree/main/3660-jump-game-ix/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
