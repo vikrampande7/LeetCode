@@ -50,6 +50,7 @@ LeetCode Problems
 | [1914-cyclically-rotating-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1929-concatenation-of-array](https://github.com/vikrampande7/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/vikrampande7/LeetCode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+| [2553-separate-the-digits-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2906-construct-product-matrix](https://github.com/vikrampande7/LeetCode/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vikrampande7/LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
@@ -217,6 +218,7 @@ LeetCode Problems
 | [0874-walking-robot-simulation](https://github.com/vikrampande7/LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1929-concatenation-of-array](https://github.com/vikrampande7/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
+| [2553-separate-the-digits-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vikrampande7/LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
