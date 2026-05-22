@@ -5,10 +5,10 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        h = {}
+        hm = {}
         for i, n in enumerate(nums):
-            if target - n in h:
-                print(target-n)
-                return [i, h[target-n]]
-            h[n] = i
+            if (target - n) in hm:
+                return [i, hm[target - n]]
+            hm[n] = i
+        return -1
         
