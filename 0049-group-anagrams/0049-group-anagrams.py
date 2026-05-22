@@ -4,12 +4,11 @@ class Solution(object):
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        d = defaultdict(list)
-        out = defaultdict(list)
+        ans = defaultdict(list)
         for s in strs:
-            count = [0] * 26
+            anagrams = [0] * 26
             for c in s:
-                idx = (ord(c) - ord('a'))
-                count[idx] += 1
-            d[tuple(count)].append(s)
-        return d.values()
+                idx = ord(c) - ord('a')
+                anagrams[idx] += 1
+            ans[tuple(anagrams)].append(s)
+        return [v for k, v in ans.items()]
