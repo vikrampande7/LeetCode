@@ -5,9 +5,8 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-        if len(nums) < 2:
-            return nums
-        hm = {}
-        for n in nums:
-            hm[n] = hm.get(n, 0) + 1
-        return heapq.nlargest(k, hm.keys(), key=hm.get)
+        freq = {}
+        for num in nums:
+            freq[num] = freq.get(num, 0) + 1
+        print(freq)
+        return heapq.nlargest(k, freq, key=freq.get)
