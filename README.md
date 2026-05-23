@@ -22,6 +22,7 @@ LeetCode Problems
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vikrampande7/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikrampande7/LeetCode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/vikrampande7/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/vikrampande7/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrampande7/LeetCode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0169-majority-element](https://github.com/vikrampande7/LeetCode/tree/main/0169-majority-element/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
@@ -109,6 +110,7 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/vikrampande7/LeetCode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/vikrampande7/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrampande7/LeetCode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0704-binary-search](https://github.com/vikrampande7/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
