@@ -1,14 +1,20 @@
 # Definition for a binary tree node.
-# class TreeNode:
+# class TreeNode(object):
 #     def __init__(self, x):
 #         self.val = x
 #         self.left = None
 #         self.right = None
 
-class Solution:
-    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        parent = {root:None}
+class Solution(object):
+    def lowestCommonAncestor(self, root, p, q):
+        """
+        :type root: TreeNode
+        :type p: TreeNode
+        :type q: TreeNode
+        :rtype: TreeNode
+        """
         stack = [root]
+        parent = {root:None}
         while p not in parent or q not in parent:
             node = stack.pop()
             if node.left:
@@ -17,10 +23,10 @@ class Solution:
             if node.right:
                 parent[node.right] = node
                 stack.append(node.right)
-        ancestors = set()
+        a = set()
         while p:
-            ancestors.add(p)
+            a.add(p)
             p = parent[p]
-        while q not in ancestors:
+        while q not in a:
             q = parent[q]
-        return q
+        return q    
