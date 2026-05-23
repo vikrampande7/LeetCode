@@ -35,6 +35,7 @@ LeetCode Problems
 | [0487-max-consecutive-ones-ii](https://github.com/vikrampande7/LeetCode/tree/main/0487-max-consecutive-ones-ii/) | Medium |
 | [0498-diagonal-traverse](https://github.com/vikrampande7/LeetCode/tree/main/0498-diagonal-traverse/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/vikrampande7/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0704-binary-search](https://github.com/vikrampande7/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0705-design-hashset](https://github.com/vikrampande7/LeetCode/tree/main/0705-design-hashset/) | Easy |
 | [0724-find-pivot-index](https://github.com/vikrampande7/LeetCode/tree/main/0724-find-pivot-index/) | Easy |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/vikrampande7/LeetCode/tree/main/0747-largest-number-at-least-twice-of-others/) | Easy |
@@ -106,6 +107,7 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrampande7/LeetCode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
+| [0704-binary-search](https://github.com/vikrampande7/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
