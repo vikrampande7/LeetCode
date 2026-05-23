@@ -11,6 +11,7 @@ LeetCode Problems
 | [0014-longest-common-prefix](https://github.com/vikrampande7/LeetCode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/vikrampande7/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/vikrampande7/LeetCode/tree/main/0027-remove-element/) | Easy |
+| [0033-search-in-rotated-sorted-array](https://github.com/vikrampande7/LeetCode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0036-valid-sudoku](https://github.com/vikrampande7/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
 | [0041-first-missing-positive](https://github.com/vikrampande7/LeetCode/tree/main/0041-first-missing-positive/) | Hard |
 | [0048-rotate-image](https://github.com/vikrampande7/LeetCode/tree/main/0048-rotate-image/) | Medium |
@@ -107,6 +108,7 @@ LeetCode Problems
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/vikrampande7/LeetCode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrampande7/LeetCode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0704-binary-search](https://github.com/vikrampande7/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
