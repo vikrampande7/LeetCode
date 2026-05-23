@@ -4,12 +4,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        prefixSum = [1] * len(nums)
-        prefix, postfix = 1, 1
-        for i in range(len(nums)):
-            prefixSum[i] = prefix
-            prefix *= nums[i]
-        for i in range(len(nums)-1, -1, -1):
-            prefixSum[i] *= postfix
-            postfix *= nums[i]
-        return prefixSum
+        n = len(nums)
+        out = [1] * n
+        prefix = 1
+        for i in range(1, n):
+            out[i] = prefix * nums[i-1]
+            prefix = out[i]
+        postfix = 1
+        for i in range(n-1, -1, -1):
+            out[i] = postfix * out[i]
+            postfix = postfix * nums[i]
+        return out
