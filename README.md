@@ -41,6 +41,7 @@ LeetCode Problems
 | [0560-subarray-sum-equals-k](https://github.com/vikrampande7/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0704-binary-search](https://github.com/vikrampande7/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0705-design-hashset](https://github.com/vikrampande7/LeetCode/tree/main/0705-design-hashset/) | Easy |
+| [0706-design-hashmap](https://github.com/vikrampande7/LeetCode/tree/main/0706-design-hashmap/) | Easy |
 | [0724-find-pivot-index](https://github.com/vikrampande7/LeetCode/tree/main/0724-find-pivot-index/) | Easy |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/vikrampande7/LeetCode/tree/main/0747-largest-number-at-least-twice-of-others/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/vikrampande7/LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
@@ -104,6 +105,7 @@ LeetCode Problems
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/vikrampande7/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0705-design-hashset](https://github.com/vikrampande7/LeetCode/tree/main/0705-design-hashset/) | Easy |
+| [0706-design-hashmap](https://github.com/vikrampande7/LeetCode/tree/main/0706-design-hashmap/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/vikrampande7/LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/vikrampande7/LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
@@ -204,6 +206,7 @@ LeetCode Problems
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/vikrampande7/LeetCode/tree/main/0002-add-two-numbers/) | Medium |
 | [0705-design-hashset](https://github.com/vikrampande7/LeetCode/tree/main/0705-design-hashset/) | Easy |
+| [0706-design-hashmap](https://github.com/vikrampande7/LeetCode/tree/main/0706-design-hashmap/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -311,6 +314,7 @@ LeetCode Problems
 | [0271-encode-and-decode-strings](https://github.com/vikrampande7/LeetCode/tree/main/0271-encode-and-decode-strings/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/vikrampande7/LeetCode/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0705-design-hashset](https://github.com/vikrampande7/LeetCode/tree/main/0705-design-hashset/) | Easy |
+| [0706-design-hashmap](https://github.com/vikrampande7/LeetCode/tree/main/0706-design-hashmap/) | Easy |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -333,6 +337,7 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0705-design-hashset](https://github.com/vikrampande7/LeetCode/tree/main/0705-design-hashset/) | Easy |
+| [0706-design-hashmap](https://github.com/vikrampande7/LeetCode/tree/main/0706-design-hashmap/) | Easy |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
