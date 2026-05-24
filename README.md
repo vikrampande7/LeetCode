@@ -32,6 +32,7 @@ LeetCode Problems
 | [0238-product-of-array-except-self](https://github.com/vikrampande7/LeetCode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0271-encode-and-decode-strings](https://github.com/vikrampande7/LeetCode/tree/main/0271-encode-and-decode-strings/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/vikrampande7/LeetCode/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0322-coin-change](https://github.com/vikrampande7/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/vikrampande7/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0414-third-maximum-number](https://github.com/vikrampande7/LeetCode/tree/main/0414-third-maximum-number/) | Easy |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
@@ -176,6 +177,7 @@ LeetCode Problems
 | [0070-climbing-stairs](https://github.com/vikrampande7/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vikrampande7/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikrampande7/LeetCode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0322-coin-change](https://github.com/vikrampande7/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0487-max-consecutive-ones-ii](https://github.com/vikrampande7/LeetCode/tree/main/0487-max-consecutive-ones-ii/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/vikrampande7/LeetCode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
@@ -281,6 +283,7 @@ LeetCode Problems
 | [0102-binary-tree-level-order-traversal](https://github.com/vikrampande7/LeetCode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikrampande7/LeetCode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0261-graph-valid-tree](https://github.com/vikrampande7/LeetCode/tree/main/0261-graph-valid-tree/) | Medium |
+| [0322-coin-change](https://github.com/vikrampande7/LeetCode/tree/main/0322-coin-change/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
