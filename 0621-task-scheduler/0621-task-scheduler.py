@@ -1,25 +1,25 @@
-class Solution:
-    def leastInterval(self, tasks: List[str], n: int) -> int:
-        count = Counter(tasks)
-        maxHeap = [-c for c in count.values()]
+class Solution(object):
+    def leastInterval(self, tasks, n):
+        """
+        :type tasks: List[str]
+        :type n: int
+        :rtype: int
+        """
+        counts = Counter(tasks)
+        maxHeap = [-freq for freq in counts.values()] 
         heapq.heapify(maxHeap)
-
+        waiting_q = deque()
         time = 0
-        q = deque() # [-c, idleTime]
 
-        while maxHeap or q:
+        while maxHeap or waiting_q:
             time += 1
 
             if maxHeap:
-                c = heapq.heappop(maxHeap) + 1
-                if c:
-                    q.append([c, time + n])
+                f = heapq.heappop(maxHeap) + 1
+                if f:
+                    waiting_q.append([f, time + n])
 
-            if q and q[0][1] == time:
-                heapq.heappush(maxHeap, q.popleft()[0])
-
+            if waiting_q and waiting_q[0][1] == time:
+                heapq.heappush(maxHeap, waiting_q.popleft()[0])
 
         return time
-                
-
-        
