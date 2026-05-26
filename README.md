@@ -56,6 +56,7 @@ LeetCode Problems
 | [1089-duplicate-zeros](https://github.com/vikrampande7/LeetCode/tree/main/1089-duplicate-zeros/) | Easy |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/vikrampande7/LeetCode/tree/main/1299-replace-elements-with-greatest-element-on-right-side/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/vikrampande7/LeetCode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1861-rotating-the-box](https://github.com/vikrampande7/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/vikrampande7/LeetCode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
@@ -243,6 +244,7 @@ LeetCode Problems
 | [0200-number-of-islands](https://github.com/vikrampande7/LeetCode/tree/main/0200-number-of-islands/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/vikrampande7/LeetCode/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0498-diagonal-traverse](https://github.com/vikrampande7/LeetCode/tree/main/0498-diagonal-traverse/) | Medium |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/vikrampande7/LeetCode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1861-rotating-the-box](https://github.com/vikrampande7/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/vikrampande7/LeetCode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
@@ -283,6 +285,7 @@ LeetCode Problems
 | [0128-longest-consecutive-sequence](https://github.com/vikrampande7/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0200-number-of-islands](https://github.com/vikrampande7/LeetCode/tree/main/0200-number-of-islands/) | Medium |
 | [0261-graph-valid-tree](https://github.com/vikrampande7/LeetCode/tree/main/0261-graph-valid-tree/) | Medium |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -294,6 +297,7 @@ LeetCode Problems
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/vikrampande7/LeetCode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vikrampande7/LeetCode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0261-graph-valid-tree](https://github.com/vikrampande7/LeetCode/tree/main/0261-graph-valid-tree/) | Medium |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -303,6 +307,7 @@ LeetCode Problems
 | [0200-number-of-islands](https://github.com/vikrampande7/LeetCode/tree/main/0200-number-of-islands/) | Medium |
 | [0261-graph-valid-tree](https://github.com/vikrampande7/LeetCode/tree/main/0261-graph-valid-tree/) | Medium |
 | [0322-coin-change](https://github.com/vikrampande7/LeetCode/tree/main/0322-coin-change/) | Medium |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
