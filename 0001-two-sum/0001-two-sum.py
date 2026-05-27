@@ -6,9 +6,7 @@ class Solution(object):
         :rtype: List[int]
         """
         hm = {}
-        for i, n in enumerate(nums):
-            if (target - n) in hm:
-                return [i, hm[target - n]]
-            hm[n] = i
-        return -1
-        
+        for idx, num in enumerate(nums):
+            if (target - num) in hm:
+                return [idx, hm[target - num]]
+            hm[num] = idx
