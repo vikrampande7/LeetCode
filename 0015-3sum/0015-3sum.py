@@ -1,24 +1,50 @@
-class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
-        res = []
+class Solution(object):
+    def threeSum(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        # -4 -1 -1 0 1 2
+
+        # -4 + -1 + 2 = -4 - 1 + 2 = -3 < 0, increasee left pointer, but same as -1 so increase again
+        # -4 + 0 + 2 = -2 < 0 increase 
+        # -4 + 1 + 2 = -1 < 0 NO PAIR
+
+        # -1 + -1 + 2 = -1 - 1 + 2 = 0 == 0 Found a pair
+
+        # -1 + 0 + 2 = 1 > 0, reduce right pointer
+        # -1 + 0 + 1 = 0 == found pair
+
         nums.sort()
+        out = []
 
-        for i, v in enumerate(nums):
-            if i > 0 and v == nums[i-1]:
+        for fixed in range(len(nums) - 2):
+            # Skip duplicate values for the 'fixed' pointer to avoid duplicate triplets
+            if fixed > 0 and nums[fixed] == nums[fixed - 1]:
                 continue
-
-            l, r = i+1, len(nums)-1
+                
+            l = fixed + 1
+            r = len(nums) - 1
+            
             while l < r:
-                threeSum = v + nums[l] + nums[r]
-                if threeSum > 0:
+                triplet_sum = nums[fixed] + nums[l] + nums[r]
+                
+                if triplet_sum > 0:
                     r -= 1
-                elif threeSum < 0:
+                elif triplet_sum < 0:
                     l += 1
                 else:
-                    res.append([v, nums[l], nums[r]])
-                    #### Imp part
+                    # Found a valid triplet
+                    out.append([nums[fixed], nums[l], nums[r]])
+                    
+                    # Move both pointers inward
                     l += 1
-                    while l < r and nums[l] == nums[l-1]:
+                    r -= 1
+                    
+                    # Skip duplicate values for 'l' and 'r' to prevent duplicates/unnecessary loops
+                    while l < r and nums[l] == nums[l - 1]:
                         l += 1
-        
-        return res
+                    while l < r and nums[r] == nums[r + 1]:
+                        r -= 1
+                        
+        return out
