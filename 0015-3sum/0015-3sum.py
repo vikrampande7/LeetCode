@@ -19,32 +19,22 @@ class Solution(object):
         out = []
 
         for fixed in range(len(nums) - 2):
-            # Skip duplicate values for the 'fixed' pointer to avoid duplicate triplets
             if fixed > 0 and nums[fixed] == nums[fixed - 1]:
-                continue
-                
+                continue 
             l = fixed + 1
             r = len(nums) - 1
-            
             while l < r:
                 triplet_sum = nums[fixed] + nums[l] + nums[r]
-                
                 if triplet_sum > 0:
                     r -= 1
                 elif triplet_sum < 0:
                     l += 1
                 else:
-                    # Found a valid triplet
                     out.append([nums[fixed], nums[l], nums[r]])
-                    
-                    # Move both pointers inward
                     l += 1
                     r -= 1
-                    
-                    # Skip duplicate values for 'l' and 'r' to prevent duplicates/unnecessary loops
                     while l < r and nums[l] == nums[l - 1]:
                         l += 1
                     while l < r and nums[r] == nums[r + 1]:
-                        r -= 1
-                        
+                        r -= 1          
         return out
