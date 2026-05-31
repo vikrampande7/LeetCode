@@ -8,10 +8,10 @@ class Solution(object):
         l = 0
         r = len(height) - 1
         while l < r:
-            w = r - l
-            maxArea = max(maxArea, min(height[l], height[r]) * w)
-            if height[l] <= height[r]:
-                l += 1
-            else:
+            a = min(height[l], height[r]) * (r - l)
+            maxArea = max(maxArea, a)
+            if height[l] >= height[r]:
                 r -= 1
+            else:
+                l += 1
         return maxArea
