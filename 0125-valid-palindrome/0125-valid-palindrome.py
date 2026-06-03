@@ -4,18 +4,16 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        o = ""
-        for c in s:
-            if c.isalnum():
-                o += lower(c)
         l = 0
-        r = len(o) - 1
-
+        r = len(s) - 1
         while l < r:
-            if o[l] != o[r]:
+            while l < r and not s[l].isalnum():
+                l += 1
+            while l < r and not s[r].isalnum():
+                r -= 1
+            if s[l].lower() != s[r].lower():
                 return False
             l += 1
             r -= 1
-        
         return True
         
