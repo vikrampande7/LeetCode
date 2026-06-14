@@ -95,6 +95,7 @@ LeetCode Problems
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/vikrampande7/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
 | [1861-rotating-the-box](https://github.com/vikrampande7/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/vikrampande7/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/vikrampande7/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -229,6 +230,7 @@ LeetCode Problems
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/vikrampande7/LeetCode/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
 | [0705-design-hashset](https://github.com/vikrampande7/LeetCode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/vikrampande7/LeetCode/tree/main/0706-design-hashmap/) | Easy |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/vikrampande7/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -344,6 +346,7 @@ LeetCode Problems
 | [0020-valid-parentheses](https://github.com/vikrampande7/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0042-trapping-rain-water](https://github.com/vikrampande7/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0155-min-stack](https://github.com/vikrampande7/LeetCode/tree/main/0155-min-stack/) | Medium |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/vikrampande7/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
