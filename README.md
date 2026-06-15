@@ -95,6 +95,7 @@ LeetCode Problems
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/vikrampande7/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
 | [1861-rotating-the-box](https://github.com/vikrampande7/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/vikrampande7/LeetCode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/vikrampande7/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/vikrampande7/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Hash Table
@@ -230,6 +231,7 @@ LeetCode Problems
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/vikrampande7/LeetCode/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
 | [0705-design-hashset](https://github.com/vikrampande7/LeetCode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/vikrampande7/LeetCode/tree/main/0706-design-hashmap/) | Easy |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/vikrampande7/LeetCode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/vikrampande7/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Math
 | Problem Name | Difficulty |
