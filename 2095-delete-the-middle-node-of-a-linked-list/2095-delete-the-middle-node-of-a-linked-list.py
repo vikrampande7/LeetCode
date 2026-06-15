@@ -9,19 +9,18 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        vals = []
+        if head.next == None:
+            return None
+            
+        n = 0
         curr = head
         while curr:
-            vals.append(curr.val)
-            curr = curr.next
-        
-        mid = len(vals) // 2
-        vals.pop(mid)
-
-        dummy = ListNode()
-        curr = dummy
-        for val in vals:
-            curr.next = ListNode(val)
+            n += 1
             curr = curr.next
 
-        return dummy.next
+        mid = n // 2
+        curr = head
+        for i in range(mid - 1):
+            curr = curr.next
+        curr.next = curr.next.next
+        return head
