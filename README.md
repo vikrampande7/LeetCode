@@ -120,6 +120,7 @@ LeetCode Problems
 | [0705-design-hashset](https://github.com/vikrampande7/LeetCode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/vikrampande7/LeetCode/tree/main/0706-design-hashmap/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/vikrampande7/LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
+| [1189-maximum-number-of-balloons](https://github.com/vikrampande7/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/vikrampande7/LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/vikrampande7/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
@@ -174,6 +175,7 @@ LeetCode Problems
 | [0657-robot-return-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/vikrampande7/LeetCode/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/vikrampande7/LeetCode/tree/main/1143-longest-common-subsequence/) | Medium |
+| [1189-maximum-number-of-balloons](https://github.com/vikrampande7/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/vikrampande7/LeetCode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/vikrampande7/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/vikrampande7/LeetCode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
@@ -189,6 +191,7 @@ LeetCode Problems
 | [0621-task-scheduler](https://github.com/vikrampande7/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0912-sort-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [1051-height-checker](https://github.com/vikrampande7/LeetCode/tree/main/1051-height-checker/) | Easy |
+| [1189-maximum-number-of-balloons](https://github.com/vikrampande7/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
