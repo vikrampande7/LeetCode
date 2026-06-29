@@ -65,6 +65,7 @@ LeetCode Problems
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/vikrampande7/LeetCode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1914-cyclically-rotating-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1929-concatenation-of-array](https://github.com/vikrampande7/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/vikrampande7/LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/vikrampande7/LeetCode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2553-separate-the-digits-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
@@ -184,6 +185,7 @@ LeetCode Problems
 | [1189-maximum-number-of-balloons](https://github.com/vikrampande7/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/vikrampande7/LeetCode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/vikrampande7/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/vikrampande7/LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/vikrampande7/LeetCode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/vikrampande7/LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
