@@ -73,6 +73,7 @@ LeetCode Problems
 | [2906-construct-product-matrix](https://github.com/vikrampande7/LeetCode/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vikrampande7/LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/vikrampande7/LeetCode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/vikrampande7/LeetCode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/vikrampande7/LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3643-flip-square-submatrix-vertically](https://github.com/vikrampande7/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
@@ -285,6 +286,7 @@ LeetCode Problems
 | [2812-find-the-safest-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [2906-construct-product-matrix](https://github.com/vikrampande7/LeetCode/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vikrampande7/LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/vikrampande7/LeetCode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/vikrampande7/LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3643-flip-square-submatrix-vertically](https://github.com/vikrampande7/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
@@ -345,11 +347,13 @@ LeetCode Problems
 | [0322-coin-change](https://github.com/vikrampande7/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0133-clone-graph](https://github.com/vikrampande7/LeetCode/tree/main/0133-clone-graph/) | Medium |
 | [0261-graph-valid-tree](https://github.com/vikrampande7/LeetCode/tree/main/0261-graph-valid-tree/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -395,6 +399,7 @@ LeetCode Problems
 | [0912-sort-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -468,4 +473,8 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/vikrampande7/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 <!---LeetCode Topics End-->
