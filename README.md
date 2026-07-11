@@ -331,6 +331,7 @@ LeetCode Problems
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/vikrampande7/LeetCode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
+| [2685-count-the-number-of-complete-components](https://github.com/vikrampande7/LeetCode/tree/main/2685-count-the-number-of-complete-components/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/vikrampande7/LeetCode/tree/main/3532-path-existence-queries-in-a-graph-i/) | Medium |
 ## Depth-First Search
@@ -345,6 +346,7 @@ LeetCode Problems
 | [0261-graph-valid-tree](https://github.com/vikrampande7/LeetCode/tree/main/0261-graph-valid-tree/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/vikrampande7/LeetCode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
+| [2685-count-the-number-of-complete-components](https://github.com/vikrampande7/LeetCode/tree/main/2685-count-the-number-of-complete-components/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -356,6 +358,7 @@ LeetCode Problems
 | [0322-coin-change](https://github.com/vikrampande7/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/vikrampande7/LeetCode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
+| [2685-count-the-number-of-complete-components](https://github.com/vikrampande7/LeetCode/tree/main/2685-count-the-number-of-complete-components/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Graph Theory
@@ -364,6 +367,7 @@ LeetCode Problems
 | [0133-clone-graph](https://github.com/vikrampande7/LeetCode/tree/main/0133-clone-graph/) | Medium |
 | [0261-graph-valid-tree](https://github.com/vikrampande7/LeetCode/tree/main/0261-graph-valid-tree/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/vikrampande7/LeetCode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
+| [2685-count-the-number-of-complete-components](https://github.com/vikrampande7/LeetCode/tree/main/2685-count-the-number-of-complete-components/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/vikrampande7/LeetCode/tree/main/3532-path-existence-queries-in-a-graph-i/) | Medium |
 ## String Matching
