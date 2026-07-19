@@ -188,6 +188,7 @@ LeetCode Problems
 | [0344-reverse-string](https://github.com/vikrampande7/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/vikrampande7/LeetCode/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/vikrampande7/LeetCode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/vikrampande7/LeetCode/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/vikrampande7/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/vikrampande7/LeetCode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
@@ -321,6 +322,7 @@ LeetCode Problems
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikrampande7/LeetCode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0621-task-scheduler](https://github.com/vikrampande7/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/vikrampande7/LeetCode/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/vikrampande7/LeetCode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/vikrampande7/LeetCode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 ## Union-Find
@@ -397,6 +399,7 @@ LeetCode Problems
 | [0020-valid-parentheses](https://github.com/vikrampande7/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0042-trapping-rain-water](https://github.com/vikrampande7/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0155-min-stack](https://github.com/vikrampande7/LeetCode/tree/main/0155-min-stack/) | Medium |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/vikrampande7/LeetCode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/vikrampande7/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -490,6 +493,7 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/vikrampande7/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/vikrampande7/LeetCode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
