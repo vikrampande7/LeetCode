@@ -219,6 +219,7 @@ LeetCode Problems
 | [0005-longest-palindromic-substring](https://github.com/vikrampande7/LeetCode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0042-trapping-rain-water](https://github.com/vikrampande7/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0070-climbing-stairs](https://github.com/vikrampande7/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
+| [0096-unique-binary-search-trees](https://github.com/vikrampande7/LeetCode/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vikrampande7/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikrampande7/LeetCode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0322-coin-change](https://github.com/vikrampande7/LeetCode/tree/main/0322-coin-change/) | Medium |
@@ -268,6 +269,7 @@ LeetCode Problems
 | [0002-add-two-numbers](https://github.com/vikrampande7/LeetCode/tree/main/0002-add-two-numbers/) | Medium |
 | [0048-rotate-image](https://github.com/vikrampande7/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0070-climbing-stairs](https://github.com/vikrampande7/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
+| [0096-unique-binary-search-trees](https://github.com/vikrampande7/LeetCode/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0528-random-pick-with-weight](https://github.com/vikrampande7/LeetCode/tree/main/0528-random-pick-with-weight/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/vikrampande7/LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
@@ -454,6 +456,7 @@ LeetCode Problems
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0096-unique-binary-search-trees](https://github.com/vikrampande7/LeetCode/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0098-validate-binary-search-tree](https://github.com/vikrampande7/LeetCode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0099-recover-binary-search-tree](https://github.com/vikrampande7/LeetCode/tree/main/0099-recover-binary-search-tree/) | Medium |
 | [0102-binary-tree-level-order-traversal](https://github.com/vikrampande7/LeetCode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
@@ -464,6 +467,7 @@ LeetCode Problems
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0096-unique-binary-search-trees](https://github.com/vikrampande7/LeetCode/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0098-validate-binary-search-tree](https://github.com/vikrampande7/LeetCode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0099-recover-binary-search-tree](https://github.com/vikrampande7/LeetCode/tree/main/0099-recover-binary-search-tree/) | Medium |
 | [0102-binary-tree-level-order-traversal](https://github.com/vikrampande7/LeetCode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
@@ -474,6 +478,7 @@ LeetCode Problems
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0096-unique-binary-search-trees](https://github.com/vikrampande7/LeetCode/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0098-validate-binary-search-tree](https://github.com/vikrampande7/LeetCode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0099-recover-binary-search-tree](https://github.com/vikrampande7/LeetCode/tree/main/0099-recover-binary-search-tree/) | Medium |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/vikrampande7/LeetCode/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
