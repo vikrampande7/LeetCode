@@ -76,6 +76,7 @@ LeetCode Problems
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/vikrampande7/LeetCode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/vikrampande7/LeetCode/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
+| [3514-number-of-unique-xor-triplets-ii](https://github.com/vikrampande7/LeetCode/tree/main/3514-number-of-unique-xor-triplets-ii/) | Medium |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/vikrampande7/LeetCode/tree/main/3532-path-existence-queries-in-a-graph-i/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/vikrampande7/LeetCode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/vikrampande7/LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -242,6 +243,7 @@ LeetCode Problems
 | ------- | ------- |
 | [1009-complement-of-base-10-integer](https://github.com/vikrampande7/LeetCode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/vikrampande7/LeetCode/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
+| [3514-number-of-unique-xor-triplets-ii](https://github.com/vikrampande7/LeetCode/tree/main/3514-number-of-unique-xor-triplets-ii/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -277,6 +279,7 @@ LeetCode Problems
 | [1344-angle-between-hands-of-a-clock](https://github.com/vikrampande7/LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vikrampande7/LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/vikrampande7/LeetCode/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
+| [3514-number-of-unique-xor-triplets-ii](https://github.com/vikrampande7/LeetCode/tree/main/3514-number-of-unique-xor-triplets-ii/) | Medium |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/vikrampande7/LeetCode/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
@@ -323,6 +326,7 @@ LeetCode Problems
 | [1291-sequential-digits](https://github.com/vikrampande7/LeetCode/tree/main/1291-sequential-digits/) | Medium |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/vikrampande7/LeetCode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3499-maximize-active-section-with-trade-i](https://github.com/vikrampande7/LeetCode/tree/main/3499-maximize-active-section-with-trade-i/) | Medium |
+| [3514-number-of-unique-xor-triplets-ii](https://github.com/vikrampande7/LeetCode/tree/main/3514-number-of-unique-xor-triplets-ii/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/vikrampande7/LeetCode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/vikrampande7/LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Greedy
