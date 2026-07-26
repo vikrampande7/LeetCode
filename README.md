@@ -44,6 +44,7 @@ LeetCode Problems
 | [0528-random-pick-with-weight](https://github.com/vikrampande7/LeetCode/tree/main/0528-random-pick-with-weight/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/vikrampande7/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0621-task-scheduler](https://github.com/vikrampande7/LeetCode/tree/main/0621-task-scheduler/) | Medium |
+| [0628-maximum-product-of-three-numbers](https://github.com/vikrampande7/LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0704-binary-search](https://github.com/vikrampande7/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0705-design-hashset](https://github.com/vikrampande7/LeetCode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/vikrampande7/LeetCode/tree/main/0706-design-hashmap/) | Easy |
@@ -166,6 +167,7 @@ LeetCode Problems
 | [0347-top-k-frequent-elements](https://github.com/vikrampande7/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0414-third-maximum-number](https://github.com/vikrampande7/LeetCode/tree/main/0414-third-maximum-number/) | Easy |
 | [0621-task-scheduler](https://github.com/vikrampande7/LeetCode/tree/main/0621-task-scheduler/) | Medium |
+| [0628-maximum-product-of-three-numbers](https://github.com/vikrampande7/LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/vikrampande7/LeetCode/tree/main/0747-largest-number-at-least-twice-of-others/) | Easy |
 | [0905-sort-array-by-parity](https://github.com/vikrampande7/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0912-sort-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0912-sort-an-array/) | Medium |
@@ -276,6 +278,7 @@ LeetCode Problems
 | [0070-climbing-stairs](https://github.com/vikrampande7/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0096-unique-binary-search-trees](https://github.com/vikrampande7/LeetCode/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0528-random-pick-with-weight](https://github.com/vikrampande7/LeetCode/tree/main/0528-random-pick-with-weight/) | Medium |
+| [0628-maximum-product-of-three-numbers](https://github.com/vikrampande7/LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/vikrampande7/LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vikrampande7/LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
