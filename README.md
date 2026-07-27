@@ -61,6 +61,7 @@ LeetCode Problems
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/vikrampande7/LeetCode/tree/main/1299-replace-elements-with-greatest-element-on-right-side/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/vikrampande7/LeetCode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/vikrampande7/LeetCode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [1861-rotating-the-box](https://github.com/vikrampande7/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
@@ -174,6 +175,7 @@ LeetCode Problems
 | [0973-k-closest-points-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1051-height-checker](https://github.com/vikrampande7/LeetCode/tree/main/1051-height-checker/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/vikrampande7/LeetCode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/vikrampande7/LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3536-maximum-product-of-two-digits](https://github.com/vikrampande7/LeetCode/tree/main/3536-maximum-product-of-two-digits/) | Easy |
@@ -438,6 +440,7 @@ LeetCode Problems
 | [0621-task-scheduler](https://github.com/vikrampande7/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0912-sort-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Bucket Sort
