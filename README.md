@@ -136,6 +136,7 @@ LeetCode Problems
 | [1346-check-if-n-and-its-double-exist](https://github.com/vikrampande7/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/vikrampande7/LeetCode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/vikrampande7/LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/vikrampande7/LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/vikrampande7/LeetCode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/vikrampande7/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/vikrampande7/LeetCode/tree/main/3532-path-existence-queries-in-a-graph-i/) | Medium |
@@ -178,6 +179,7 @@ LeetCode Problems
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/vikrampande7/LeetCode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/vikrampande7/LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/vikrampande7/LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/vikrampande7/LeetCode/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 | [3536-maximum-product-of-two-digits](https://github.com/vikrampande7/LeetCode/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 ## String
@@ -208,6 +210,7 @@ LeetCode Problems
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/vikrampande7/LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/vikrampande7/LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/vikrampande7/LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/vikrampande7/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3499-maximize-active-section-with-trade-i](https://github.com/vikrampande7/LeetCode/tree/main/3499-maximize-active-section-with-trade-i/) | Medium |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/vikrampande7/LeetCode/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
@@ -222,6 +225,7 @@ LeetCode Problems
 | [0912-sort-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [1051-height-checker](https://github.com/vikrampande7/LeetCode/tree/main/1051-height-checker/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/vikrampande7/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/vikrampande7/LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/vikrampande7/LeetCode/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/vikrampande7/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Dynamic Programming
@@ -352,6 +356,7 @@ LeetCode Problems
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/vikrampande7/LeetCode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/vikrampande7/LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/vikrampande7/LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
