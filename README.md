@@ -52,6 +52,7 @@ LeetCode Problems
 | [0724-find-pivot-index](https://github.com/vikrampande7/LeetCode/tree/main/0724-find-pivot-index/) | Easy |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/vikrampande7/LeetCode/tree/main/0747-largest-number-at-least-twice-of-others/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/vikrampande7/LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
+| [0877-stone-game](https://github.com/vikrampande7/LeetCode/tree/main/0877-stone-game/) | Medium |
 | [0905-sort-array-by-parity](https://github.com/vikrampande7/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0912-sort-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [0941-valid-mountain-array](https://github.com/vikrampande7/LeetCode/tree/main/0941-valid-mountain-array/) | Easy |
@@ -241,6 +242,7 @@ LeetCode Problems
 | [0322-coin-change](https://github.com/vikrampande7/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0486-predict-the-winner](https://github.com/vikrampande7/LeetCode/tree/main/0486-predict-the-winner/) | Medium |
 | [0487-max-consecutive-ones-ii](https://github.com/vikrampande7/LeetCode/tree/main/0487-max-consecutive-ones-ii/) | Medium |
+| [0877-stone-game](https://github.com/vikrampande7/LeetCode/tree/main/0877-stone-game/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/vikrampande7/LeetCode/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/vikrampande7/LeetCode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
@@ -292,6 +294,7 @@ LeetCode Problems
 | [0486-predict-the-winner](https://github.com/vikrampande7/LeetCode/tree/main/0486-predict-the-winner/) | Medium |
 | [0528-random-pick-with-weight](https://github.com/vikrampande7/LeetCode/tree/main/0528-random-pick-with-weight/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/vikrampande7/LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+| [0877-stone-game](https://github.com/vikrampande7/LeetCode/tree/main/0877-stone-game/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/vikrampande7/LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vikrampande7/LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
@@ -546,4 +549,5 @@ LeetCode Problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/vikrampande7/LeetCode/tree/main/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/vikrampande7/LeetCode/tree/main/0877-stone-game/) | Medium |
 <!---LeetCode Topics End-->
