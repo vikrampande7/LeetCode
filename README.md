@@ -112,6 +112,7 @@ LeetCode Problems
 | [1861-rotating-the-box](https://github.com/vikrampande7/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/vikrampande7/LeetCode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/vikrampande7/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/vikrampande7/LeetCode/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/vikrampande7/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -217,6 +218,7 @@ LeetCode Problems
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/vikrampande7/LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/vikrampande7/LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/vikrampande7/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/vikrampande7/LeetCode/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 | [3499-maximize-active-section-with-trade-i](https://github.com/vikrampande7/LeetCode/tree/main/3499-maximize-active-section-with-trade-i/) | Medium |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/vikrampande7/LeetCode/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/vikrampande7/LeetCode/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
@@ -249,6 +251,7 @@ LeetCode Problems
 | [1143-longest-common-subsequence](https://github.com/vikrampande7/LeetCode/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/vikrampande7/LeetCode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/vikrampande7/LeetCode/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 | [3660-jump-game-ix](https://github.com/vikrampande7/LeetCode/tree/main/3660-jump-game-ix/) | Medium |
 | [3699-number-of-zigzag-arrays-i](https://github.com/vikrampande7/LeetCode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
 ## Sliding Window
@@ -367,6 +370,7 @@ LeetCode Problems
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/vikrampande7/LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/vikrampande7/LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/vikrampande7/LeetCode/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
