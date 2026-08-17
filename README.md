@@ -72,6 +72,7 @@ LeetCode Problems
 | [1914-cyclically-rotating-a-grid](https://github.com/vikrampande7/LeetCode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1929-concatenation-of-array](https://github.com/vikrampande7/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/vikrampande7/LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
+| [2029-stone-game-ix](https://github.com/vikrampande7/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/vikrampande7/LeetCode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2553-separate-the-digits-in-an-array](https://github.com/vikrampande7/LeetCode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
@@ -240,6 +241,7 @@ LeetCode Problems
 | [0912-sort-an-array](https://github.com/vikrampande7/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [1051-height-checker](https://github.com/vikrampande7/LeetCode/tree/main/1051-height-checker/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/vikrampande7/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
+| [2029-stone-game-ix](https://github.com/vikrampande7/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/vikrampande7/LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/vikrampande7/LeetCode/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/vikrampande7/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
@@ -314,6 +316,7 @@ LeetCode Problems
 | [0877-stone-game](https://github.com/vikrampande7/LeetCode/tree/main/0877-stone-game/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/vikrampande7/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/vikrampande7/LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
+| [2029-stone-game-ix](https://github.com/vikrampande7/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vikrampande7/LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/vikrampande7/LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/vikrampande7/LeetCode/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
@@ -378,6 +381,7 @@ LeetCode Problems
 | [0680-valid-palindrome-ii](https://github.com/vikrampande7/LeetCode/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/vikrampande7/LeetCode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/vikrampande7/LeetCode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
+| [2029-stone-game-ix](https://github.com/vikrampande7/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/vikrampande7/LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/vikrampande7/LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/vikrampande7/LeetCode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
@@ -571,4 +575,17 @@ LeetCode Problems
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/vikrampande7/LeetCode/tree/main/0486-predict-the-winner/) | Medium |
 | [0877-stone-game](https://github.com/vikrampande7/LeetCode/tree/main/0877-stone-game/) | Medium |
+| [2029-stone-game-ix](https://github.com/vikrampande7/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
+## Minimax
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2029-stone-game-ix](https://github.com/vikrampande7/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
+## Nim Game
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2029-stone-game-ix](https://github.com/vikrampande7/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
+## Zero-Sum Game
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2029-stone-game-ix](https://github.com/vikrampande7/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 <!---LeetCode Topics End-->
