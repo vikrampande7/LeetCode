@@ -5,8 +5,8 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        hm = {}
-        for idx, num in enumerate(nums):
-            if (target - num) in hm:
-                return [idx, hm[target - num]]
-            hm[num] = idx
+        hashmap = {}
+        for i, num in enumerate(nums):
+            if (target - num) in hashmap:
+                return [i, hashmap[target-num]]
+            hashmap[num] = i 
